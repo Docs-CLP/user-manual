@@ -110,6 +110,9 @@ Contar con su usuario y contraseña, si no tiene por favor dirigase a la seccion
 _Instrucciones paso a paso para obtener los reportes._
 
 1. Iniciar el sistema en la siguiente URL [http://sistema.clpcatering.com/softclp/login/login](http://sistema.clpcatering.com/softclp/login/login)
+ 
+ <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/StartPageCLP.png">
+
 2. Ingrese su usuario y contraseña
   ```sh
     username : user_clp
@@ -117,11 +120,15 @@ _Instrucciones paso a paso para obtener los reportes._
   ```
 3. Clic en el modulo de Catering Servicios ```Mod. Catering Servicios ```   :arrow_lower_left:
 
-   <img src="https://github.com/othneildrew/Best-README-Template/blob/master/images/logo.png" alt="Logo" width="100" height="100">
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mod-services.png" >
 
 4. Clic en el sub-modulo de Despachos ```Sub-Mod. Despachos```   :arrow_lower_left:
 
-   <img src="https://github.com/othneildrew/Best-README-Template/blob/master/images/logo.png" alt="Logo" width="100" height="100">
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/sub-serv-despachos.png" >
+
+5. Clic en el sub-modulo de Despachos ```Sub-Mod. Despachos```   :arrow_lower_left:
+
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/sub-serv-optSearching.png" >
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
