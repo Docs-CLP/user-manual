@@ -55,36 +55,30 @@
   <summary>Tabla de Contenidos</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Sobre el proyecto</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#about-the-project">Sobre el manual</a>      
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Como empezar</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Prerequisitos</a></li>
+        <li><a href="#installation">Iniciar APP</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#contactos">Contactos</a></li>    
+    
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## Sobre el proyecto
+## Sobre el manual
 
 
 <!--[![Sistema SOFCLP][product-screenshot]](http://sistema.clpcatering.com/softclp/login/login)-->
 
-El proyeto tiene como finalidad de obtener los reportes de despachos por orden de pedido
+Este manual tiene como finalidad de obtener los reportes de despachos generados por orden de pedido
 
 Use este manual `reportDespachosCC.md` para empezar.
 
@@ -126,9 +120,35 @@ _Instrucciones paso a paso para obtener los reportes._
 
   <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/sub-serv-despachos.png" >
 
-5. Clic en el sub-modulo de Despachos ```Sub-Mod. Despachos```   :arrow_lower_left:
-
+5. Escoga las opciones para realizar la busqueda  ```Choose Options```   :arrow_lower_left:
+  ```sh
+    * Fecha Desde > Elegir la fecha de inicio para el reporte
+    * Fecha Hasta > Elegir la fecha de final del reporte
+    * Centro Costo > Elegir el Centro Costo o dejar seleccionado TODOS para realizar una busqueda generalizada
+    * Estado > Las opciones de estado son las siguientes:
+      - Archivadas
+      - Anuladas
+    * Tipo Reporte > Las opciones de tipo de reporte son las siguientes:
+      - Reporte Semanal
+      - Reporte Mensual
+      - Reporte Centro Costo
+    * Tipo CC > Las opciones de Centro Costo son las siguientes:
+      - Permanentes
+      - Temporales
+    * Ubicación > Las opciones de Ubicacion son las siguientes:
+      - Principal
+      - Remota
+      - Eventual
+      - Exploracion
+      - Todas
+  ```
   <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/sub-serv-optSearching.png" >
+
+  * Luego clic en el boton Generar Reporte :green_square:
+
+6. Reporte Final ```Report Finally```   :arrow_lower_left:
+
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/report_final.png" >
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -181,21 +201,23 @@ Don't forget to give the project a star! Thanks again!
 
 
 
+
+-->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
 
 <!-- CONTACT -->
+
 ## Contactos
 
 Angel Cuenca - Lider IT - it@cateringclp.com
 
 Cristian Paz - Soporte IT - soporte.it@cateringclp.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Docs-CLP/user-manual/blob/main/reportDespachosCC.md](https://github.com/Docs-CLP/user-manual/blob/main/reportDespachosCC.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
