@@ -191,6 +191,7 @@ _Instrucciones paso a paso para obtener los reportes._
   <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-opt.png" >
 
 2. Clic en el boton ```Si / Cancelar```   :arrow_lower_left:
+
    <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-delete.png" >
 
 
