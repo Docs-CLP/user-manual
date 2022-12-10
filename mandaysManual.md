@@ -39,10 +39,10 @@
     <img src="https://github.com/othneildrew/Best-README-Template/blob/master/images/logo.png" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Manual de usuario</h3>
+<h3 align="center">Manual de usuario</h3>
 
   <p align="center">  
-    Reportes de despachos
+    Gestion de Mandays
     <br />
     <a href="http://sistema.clpcatering.com/softclp">Iniciar aplicacion</a>    
   </p>  
@@ -62,11 +62,14 @@
       <ul>
         <li><a href="#prerequisites">Prerequisitos</a></li>
         <li><a href="#installation">Iniciar APP</a></li>
+        <li><a href="#installation">Crear Mandays</a></li>
+        <li><a href="#installation">Actualizar Mandays</a></li>
+        <li><a href="#installation">Eliminar Mandays</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
     <li><a href="#contactos">Contactos</a></li>    
-    
+
   </ol>
 </details>
 
@@ -78,9 +81,9 @@
 
 <!--[![Sistema SOFCLP][product-screenshot]](http://sistema.clpcatering.com/softclp/login/login)-->
 
-Este manual tiene como finalidad de obtener los reportes de despachos generados por orden de pedido
+Este manual tiene como finalidad gestionar los mandays en el sistema
 
-Use este manual `reportDespachosCC.md` para empezar.
+Use este manual `mandaysManual.md` para empezar.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +107,7 @@ Contar con su usuario y contraseña, si no tiene por favor dirigase a la seccion
 _Instrucciones paso a paso para obtener los reportes._
 
 1. Iniciar el sistema en la siguiente URL [http://sistema.clpcatering.com/softclp/login/login](http://sistema.clpcatering.com/softclp/login/login)
- 
+
  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/StartPageCLP.png">
 
 2. Ingrese su usuario y contraseña
@@ -116,55 +119,82 @@ _Instrucciones paso a paso para obtener los reportes._
 
   <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mod-services.png" >
 
-4. Clic en el sub-modulo de Despachos ```Sub-Mod. Despachos```   :arrow_lower_left:
+4. Clic en el sub-modulo de Mandays ```Sub-Mod. Mandays```   :arrow_lower_left:
 
-  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/sub-serv-despachos.png" >
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-mod.png" >
 
 5. Escoga las opciones para realizar la busqueda  ```Choose Options```   :arrow_lower_left:
   ```sh
     * Fecha Desde > Elegir la fecha de inicio para el reporte
     * Fecha Hasta > Elegir la fecha de final del reporte
-    * Centro Costo > Elegir el Centro Costo o dejar seleccionado TODOS para realizar una busqueda generalizada
     * Estado > Las opciones de estado son las siguientes:
-      - Archivadas
-      - Anuladas
-    * Tipo Reporte > Las opciones de tipo de reporte son las siguientes:
-      - Reporte Semanal
-      - Reporte Mensual
-      - Reporte Centro Costo
-    * Tipo CC > Las opciones de Centro Costo son las siguientes:
-      - Permanentes
-      - Temporales
-    * Ubicación > Las opciones de Ubicacion son las siguientes:
-      - Principal
-      - Remota
-      - Eventual
-      - Exploracion
       - Todas
+      - Activadas
+      - Anuladas
   ```
-  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/sub-serv-optSearching.png" >
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-searching.png" >
 
-  * Luego clic en el boton Generar Reporte :green_square:
+* Luego clic en el boton Buscar Reporte :green_square:
 
 6. Reporte Final ```Report Finally```   :arrow_lower_left:
 
-  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/report_final.png" >
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-list.png" >
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+### Crear Mandays
+
+1. Clic en el boton ```Añadir Mandays```   :arrow_lower_left:
+
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-create.png" >
+
+2. Ingresar los siguientes campos   :arrow_lower_left:
+  ```sh
+    * Fecha Mandays
+    * Nro de Mandays
+    * Estado > Las opciones de estado son las siguientes:
+      - Activada
+      - Anulada
+  ```
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-create-save.png" >
+
+3. Clic en el boton ```Crear Mandays```   :arrow_lower_left:
+
+
+### Actualizar Mandays
+
+1. Clic en el boton ```Editar```   :arrow_lower_left:
+
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-opt.png" >
+
+2. Ingresar los siguientes campos   :arrow_lower_left:
+  ```sh
+    * Fecha Mandays
+    * Nro de Mandays
+    * Estado > Las opciones de estado son las siguientes:
+      - Activada
+      - Anulada
+  ```
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-update.png" >
+
+3. Clic en el boton ```Actualizar Mandays```   :arrow_lower_left:
+
+
+### Eliminar Mandays
+
+1. Clic en el boton ```Eliminar```   :arrow_lower_left:
+
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-opt.png" >
+
+2. Clic en el boton ```Si / Cancelar```   :arrow_lower_left:
+   <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-delete.png" >
 
 
 <!-- CONTRIBUTING
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## Roadmap
 
@@ -217,7 +247,7 @@ Angel Cuenca - Lider IT - it@cateringclp.com
 
 Cristian Paz - Soporte IT - soporte.it@cateringclp.com
 
-Project Link: [https://github.com/Docs-CLP/user-manual/blob/main/reportDespachosCC.md](https://github.com/Docs-CLP/user-manual/blob/main/reportDespachosCC.md)
+Project Link: [https://github.com/Docs-CLP/user-manual/blob/main/mandaysManual.md](https://github.com/Docs-CLP/user-manual/blob/main/mandaysManual.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
