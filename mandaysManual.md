@@ -195,6 +195,13 @@ _Instrucciones paso a paso para obtener los reportes._
    <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-delete.png" >
 
 
+## Reportes daily finales
+
+1. Todos los reportes como son ``` Daily Report FDN,  Consolidated Services FDN,  Services Report FDN```, se encuentran vinculadas los mandays   :arrow_lower_left:
+
+  <img src="https://github.com/Docs-CLP/user-manual/blob/main/img/mod-servicios/mandays-result_finaly.png" >
+
+
 <!-- CONTRIBUTING
 
 ## Roadmap
